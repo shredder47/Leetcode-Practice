@@ -11,8 +11,8 @@ public class TwoSum {
      */
     public static void main(String[] args) {
 
-        int[] arr = new int[]{3,3};
-        int target = 6;
+        int[] arr = new int[]{2,7,11,7};
+        int target = 9;
 
         System.out.println(Arrays.toString(twoSum(arr, target)));
 
@@ -31,9 +31,13 @@ public class TwoSum {
                 if (nums[i] + nums[j] == target) {
                     fVal = i;
                     sVal = j;
+                    break;
                 }
             }
+            if((fVal != -1) && (sVal != -1)){
 
+                break;
+            }
         }
 
         return new int[]{fVal,sVal};
