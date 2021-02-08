@@ -2,6 +2,7 @@ package com.shredder.array;
 
 import java.util.Arrays;
 
+// #EASY
 public class TwoSum {
 
     /**
