@@ -19,7 +19,8 @@ import java.util.List;
 public class PascalsTriangle {
 
     public static void main(String[] args) {
-        System.out.println(generate(5));
+        System.out.println(getRow(1));
+
 
     }
 
@@ -61,6 +62,12 @@ public class PascalsTriangle {
         }
 
         return outPutArr;
+    }
+
+    public static List<Integer> getRow(int rowIndex) {
+
+        List<List<Integer>> generate = generate(rowIndex + 1);
+        return generate.get(generate.size() - 1);
     }
 
 
