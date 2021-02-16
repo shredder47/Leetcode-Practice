@@ -16,6 +16,8 @@ import java.util.List;
      [1,4,6,4,1]
     ]
  */
+
+// #EASY
 public class PascalsTriangle {
 
     public static void main(String[] args) {

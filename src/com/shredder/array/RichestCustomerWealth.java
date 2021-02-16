@@ -1,6 +1,6 @@
 package com.shredder.array;
 
-// # EASY
+// #EASY
 public class RichestCustomerWealth {
 
 

@@ -3,6 +3,8 @@ package com.shredder.array;
 import java.util.ArrayList;
 import java.util.List;
 
+
+// #EASY
 public class KidsWithCandies {
 
 
