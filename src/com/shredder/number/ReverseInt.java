@@ -1,5 +1,6 @@
 package com.shredder.number;
 
+// #EASY
 public class ReverseInt {
 
     public static void main(String[] args) {
